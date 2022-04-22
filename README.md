@@ -3,11 +3,10 @@
 a program (in Java or JavaScript) which takes in a string as an input and returns true if all the
 parentheses in the string are properly closed and nested.
 
-Run node with _parenthesis-checker.js_
+Run node with _parenthesis-checker.js_. This script assumes no and doesn't fix any other syntax or style issues.
 
 #### Prompt 2:
-> For the files in CSV format, write a program in a language that makes
-sense to you that will read the content of the file and separate enrollees by insurance company in its own
+> For the files in CSV format, write a program in Java that will read the content of the file and separate enrollees by insurance company in its own
 file. Additionally, sort the contents of each file by last and first name (ascending).  Lastly, if there are
 duplicate User Ids for the same Insurance Company, then only the record with the highest version should
 be included. The following data points are included in the file: 

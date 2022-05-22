@@ -22,7 +22,7 @@ public class AppTest {
     @Test
     public void testProcessFileByInsurance() {
         App p = new App();
-        File file = new File("src\\testfiles\\apptest.csv");
+        File file = new File("src\\testfiles\\apptest1.csv");
         assertTrue(file.exists());
 
         HashMap<String, HashMap<String, App.Record>> ds = p.processFileByInsurance(file.getAbsolutePath());
@@ -39,7 +39,7 @@ public class AppTest {
     @Test
     public void testEntriesSorting() {
         App p = new App();
-        File file = new File("src\\testfiles\\apptest.csv");
+        File file = new File("src\\testfiles\\apptest1.csv");
         HashMap<String, HashMap<String, App.Record>> ds = p.processFileByInsurance(file.getAbsolutePath());
 
         // This section is just from the source code BTW
